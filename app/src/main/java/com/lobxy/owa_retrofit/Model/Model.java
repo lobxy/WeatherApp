@@ -41,9 +41,21 @@ public class Model {
     @SerializedName("name")
     @Expose
     private String name;
+
     @SerializedName("cod")
     @Expose
-    private Integer cod;
+    private int cod;
+    @SerializedName("message")
+    @Expose
+    private String message;
+
+    public String getMessage() {
+        return message;
+    }
+
+    public void setMessage(String message) {
+        this.message = message;
+    }
 
     public Coord getCoord() {
         return coord;
