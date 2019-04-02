@@ -1,2 +1,2 @@
 # WeatherApp
-Used OpenWeatherMap Api, Retrofit and Gson.
+Uses OpenWeatherMap Api, Retrofit and Gson.
